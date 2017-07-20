@@ -132,6 +132,9 @@ main{
     
     */
     width: 50%;
+    position: relative;
+    transform: translateY(-60px);
+
     
 }
 aside{
@@ -145,6 +148,7 @@ aside{
     
     */
     width: 15%;
+     transform: translateY(-60px);
 }
 aside h3{
     text-align: center;
@@ -186,10 +190,10 @@ article img{
         and match sizes and spacing to the mockup
     */
     float: right;
-    width: 50%;
+    width: 55%;
     padding-left: 10px;
     padding-right: 10px;
-    
+
 }
 article footer p{
     /*
@@ -199,6 +203,7 @@ article footer p{
     */
     flex-flow: row;
     font-family: "Josefin Sans", sans-serif;
+    border-top: 1px solid#ccc;
 }
 #site-footer{
     
@@ -207,7 +212,13 @@ article footer p{
         TODO: 
         - Style the site footer
     */
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;  
+    position: absolute;
+    right: 0;
+    bottom: -2000px;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
 }
 
 
