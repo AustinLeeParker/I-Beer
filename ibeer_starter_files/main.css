@@ -193,7 +193,7 @@ article img{
     width: 55%;
     padding-left: 10px;
     padding-right: 10px;
-
+    transform: translateY(2%);
 }
 article footer p{
     /*
@@ -204,6 +204,7 @@ article footer p{
     flex-flow: row;
     font-family: "Josefin Sans", sans-serif;
     border-top: 1px solid#ccc;
+    text-align: center;
 }
 #site-footer{
     
