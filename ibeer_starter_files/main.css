@@ -16,10 +16,12 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
+
+}
+#body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
@@ -32,7 +34,7 @@ img{
     display: block;
 }
 .wrapper{
-    width: 1000px;
+     width: 1000px; 
 
     /*
         TODO: 
@@ -40,8 +42,10 @@ img{
         - Create a flexbox containerer for
         the major page sections
     */
-     justify-content: center; 
+     display: flex;
      flex-wrap: wrap;
+     justify-content: center;
+     flex-shrink: 1;
 }
 #site-header{
     /*
@@ -92,7 +96,7 @@ img{
         TODO: 
         - Use Flexbox to arrange the navigation links
     */
-
+    display: flex;
     
 }
 #main-navigation a{
@@ -126,8 +130,7 @@ main{
         - Use relative positioning to bump this upward
     
     */
-    width: 25%;
-    position: relative;
+    width: 75%;
 }
 aside{
     padding: 20px;
@@ -139,14 +142,7 @@ aside{
         - Use relative positioning to bump this upward
     
     */
-    width: 25%;
-    /* float: right; */
-    position: relative;
-    bottom: 0px;
-    right: 100px;
-    left: 0px;
-    top: 100px;
-    
+    width: 15%;
 }
 aside h3{
     text-align: center;
@@ -194,6 +190,8 @@ article footer p{
         - Style the article footer
         HINT: Look to the article header;
     */
+    flex-flow: row;
+    font-family: "Josefin Sans", sans-serif;
 }
 #site-footer{
     
