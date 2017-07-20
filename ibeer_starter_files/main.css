@@ -16,7 +16,6 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
-
 }
 #body {
     display: flex;
@@ -42,12 +41,14 @@ img{
         - Create a flexbox containerer for
         the major page sections
     */
-     display: flex;
+      display: flex; 
      flex-wrap: wrap;
      justify-content: center;
      flex-shrink: 1;
+     margin: auto;
+    max-width: 1000px;
 }
-#site-header{
+ #site-header{
     /*
         TODO
         - Flexbox property here
@@ -130,7 +131,8 @@ main{
         - Use relative positioning to bump this upward
     
     */
-    width: 75%;
+    width: 50%;
+    
 }
 aside{
     padding: 20px;
@@ -183,6 +185,11 @@ article img{
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 article footer p{
     /*
@@ -200,6 +207,7 @@ article footer p{
         TODO: 
         - Style the site footer
     */
+    font-family: "Josefin Sans", sans-serif;
 }
 
 
